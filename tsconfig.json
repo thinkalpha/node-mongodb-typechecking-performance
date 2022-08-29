@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "lib": ["ESNext"],
+        "module": "CommonJS",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "inlineSources": true,
+        "target": "ES2020",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "strictBindCallApply": true,
+        "allowJs": true,
+        "importHelpers": true,
+        "noImplicitOverride": true,
+        "noEmitHelpers": true,
+        "noImplicitAny": true,
+        "outDir": "dist",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "plugins": [],
+        "types": [],
+        "typeRoots": ["node_modules/@types"],
+        "resolveJsonModule": true
+    },
+    "include": ["src/index.ts"]
+}

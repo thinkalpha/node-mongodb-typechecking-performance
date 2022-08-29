@@ -1,0 +1,18 @@
+{
+  "name": "ts-mongo-perf",
+  "version": "1.0.0",
+  "description": "Reproduction of typechecking issues in new MongoDB Driver for Node",
+  "main": "index.ts",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bson": "~4.7.0",
+    "moment": "~2.29.4",
+    "mongodb": "~4.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "~18.7.13",
+    "typescript": "~4.8.2"
+  }
+}
